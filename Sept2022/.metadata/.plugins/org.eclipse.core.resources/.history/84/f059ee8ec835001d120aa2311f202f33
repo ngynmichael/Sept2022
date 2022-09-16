@@ -1,0 +1,48 @@
+package com.saran.app;
+
+public class BankingAppln {
+
+	int accountNo;
+	String accountName;
+	float amount;
+
+	void insertAccount(int accountNo, String accountName, float amount) {
+		this.accountNo = accountNo;
+		this.accountName = accountName;
+		this.amount = amount;
+	}
+	
+	void deposit(float amt) {
+		amount = amount + amt;
+		System.out.println(amount + "Deposited");
+	}
+	
+	void withdrawl(float amt) {
+		if(amount < amt) {
+			System.out.println("Insufficient Funds");
+		}
+		else {
+			amount = amount - amt;
+			System.out.println("Amount Withdrawn " + amount);
+		}
+	}
+	
+	void checkBalance() {
+		System.out.println("Balance: " + amount);
+	}
+	
+	void show() {
+		System.out.println(accountNo + accountName + amount);
+	}
+	
+	public static void main(String[] args) {
+		BankingAppln b1 = new BankingAppln();
+		b1.insertAccount(11, "Jean", 5000);
+		b1.show();
+		b1.checkBalance();
+		b1.deposit(4000);
+		b1.checkBalance();
+		b1.withdrawl(3000);
+		b1.checkBalance();
+	}
+}

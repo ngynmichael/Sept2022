@@ -1,0 +1,9 @@
+package com.michael.michael_app;
+
+class intAdder{
+	void add(int)
+}
+
+public class doubleAdder extends intAdder{
+
+}

@@ -1,0 +1,12 @@
+package com.saran.app;
+
+public class First {
+
+	int x = 10;
+	
+	public static void main(String[] args) {
+		int y = 20;
+		First f = new First();
+		System.out.println(f.x);
+	}
+}
