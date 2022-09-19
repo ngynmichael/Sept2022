@@ -1,0 +1,84 @@
+package com.michael.assignment3;
+
+import java.util.ArrayList;
+
+public class Bookstore {
+	public static void main(String[] args) {
+		Library library = new Library();
+		library.show();
+	}
+}
+
+class Order{
+	
+	public Order() {
+		// TODO Auto-generated constructor stub
+	}
+}
+
+class Book{
+	
+	private String title;
+	private String author;
+	private double price;
+	
+	public Book(String title, String author, double price) {
+		this.title = title;
+		this.author = author;
+		this.price = price;
+	}
+	
+	public String getTitle() {
+		return this.title;
+	}
+	
+	public double getPrice() {
+		return this.price;
+	}
+	
+	public String getAuthor() {
+		return this.author;
+	}
+	
+	public String toString() {
+		return this.title + " by " + this.author + " $" + this.price;
+	}
+}
+
+class Library{
+	
+	ArrayList<Book> library = new ArrayList<Book>();
+	
+	public Library() {
+		library.add(new Book("To Kill a Mockingbird", "Harper Lee", 10.28));
+		library.add(new Book("The Great Gatsby", "F. Scott Fitzgerald", 3.84));
+		library.add(new Book("Little Women", "Louisa May Alcott", 14.26));
+		library.add(new Book("Pride and Prejudice", "Jane Austen", 17.99));
+	}
+	
+	void show() {
+		for(Book a : library) {
+			System.out.println(a);
+		}
+	}
+	
+	public ArrayList<Book> searchByAuthor(String author) {
+		ArrayList<Book> search = new ArrayList<Book>();
+		for(Book i: library) {
+			if(author.equals(i.getTitle())) {
+				search.add(i);
+			}
+		}
+		return search;
+	}
+	
+	public ArrayList<Book> searchByTitle(String title) {
+		ArrayList<Book> search = new ArrayList<Book>();
+		for(Book i: library) {
+			if(title.equals(i.getTitle())) {
+				search.add(i);
+			}
+		}
+		return search;
+	}
+}

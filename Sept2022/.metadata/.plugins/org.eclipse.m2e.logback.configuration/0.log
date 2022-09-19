@@ -640,3 +640,114 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 2022-09-19 10:13:48,072 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
 2022-09-19 10:13:48,075 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-09-19 10:13:48,075 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:09:33,581 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:09:33,581 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:09:33,581 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:09:33,581 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:17:35,416 [Worker-83: Launching WashingMachine] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:17:35,416 [Worker-83: Launching WashingMachine] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:17:35,416 [Worker-83: Launching WashingMachine] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:17:35,416 [Worker-83: Launching WashingMachine] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:20:30,010 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:20:30,010 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:20:30,010 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:20:30,010 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:20:35,882 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:20:35,882 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:20:35,882 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:20:35,882 [Worker-87: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:20:51,291 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:20:51,291 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:20:51,291 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:20:51,291 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:21:13,842 [Worker-87: Launching WashingMachine] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:21:13,842 [Worker-87: Launching WashingMachine] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:21:13,842 [Worker-87: Launching WashingMachine] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:21:13,842 [Worker-87: Launching WashingMachine] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:29:40,647 [Worker-85: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:29:40,647 [Worker-85: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:29:40,647 [Worker-85: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:29:40,647 [Worker-85: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:30:41,399 [Worker-93: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:30:41,399 [Worker-93: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:30:41,399 [Worker-93: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:30:41,399 [Worker-93: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:31:19,109 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:31:19,109 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:31:19,109 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:31:19,109 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:32:29,246 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:32:29,246 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:32:29,246 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:32:29,246 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:36:42,172 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:36:42,172 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:36:42,172 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:36:42,172 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:37:01,606 [Worker-95: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:37:01,606 [Worker-95: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:37:01,606 [Worker-95: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:37:01,606 [Worker-95: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:38:02,890 [Worker-91: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:38:02,890 [Worker-91: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:38:02,890 [Worker-91: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:38:02,890 [Worker-91: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:38:52,008 [Worker-95: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:38:52,008 [Worker-95: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:38:52,008 [Worker-95: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:38:52,008 [Worker-95: Launching Student (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:39:13,838 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:39:13,838 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:39:13,848 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:39:13,848 [Worker-94: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:50:05,184 [Worker-96: Launching Truck] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:50:05,184 [Worker-96: Launching Truck] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:50:05,199 [Worker-96: Launching Truck] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:50:05,200 [Worker-96: Launching Truck] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:51:58,401 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:51:58,401 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:51:58,401 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:51:58,401 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 12:58:10,490 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:58:10,490 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 12:58:10,491 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 12:58:10,491 [Worker-100: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 13:49:11,587 [Worker-120: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 13:49:11,587 [Worker-120: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 13:49:11,587 [Worker-120: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 13:49:11,587 [Worker-120: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 13:49:36,924 [Worker-120: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 13:49:36,924 [Worker-120: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 13:49:36,925 [Worker-120: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 13:49:36,926 [Worker-120: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 13:49:46,707 [Worker-121: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 13:49:46,707 [Worker-121: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 13:49:46,708 [Worker-121: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 13:49:46,708 [Worker-121: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 13:55:48,411 [Worker-132: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 13:55:48,411 [Worker-132: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 13:55:48,411 [Worker-132: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 13:55:48,411 [Worker-132: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 13:56:12,994 [Worker-128: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 13:56:12,994 [Worker-128: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 13:56:12,994 [Worker-128: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 13:56:12,994 [Worker-128: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 13:56:51,896 [Worker-123: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 13:56:51,896 [Worker-123: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 13:56:51,909 [Worker-123: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 13:56:51,910 [Worker-123: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 16:17:00,473 [Worker-168: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 16:17:00,473 [Worker-168: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 16:17:00,473 [Worker-168: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 16:17:00,473 [Worker-168: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 17:48:54,888 [Worker-202: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 17:48:54,888 [Worker-202: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 17:48:54,888 [Worker-202: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 17:48:54,888 [Worker-202: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 17:49:17,574 [Worker-206: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 17:49:17,574 [Worker-206: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 17:49:17,574 [Worker-206: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 17:49:17,574 [Worker-206: Launching Bookstore] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\test\resources
+2022-09-19 18:53:54,524 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-09-19 18:53:54,525 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\michaeln\Sept2022\michael-app\src\main\resources
+2022-09-19 18:53:54,528 [Worker-231: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

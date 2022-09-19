@@ -1,0 +1,13 @@
+package assignment3;
+
+class Vehicle {
+
+	int vehicleNo;
+	String model;
+	String manufacturer;
+	String color;
+}
+
+public class Truck extends Truck{
+	
+}
