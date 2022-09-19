@@ -11,7 +11,6 @@ public class Operations {
 		System.out.print("Enter your second number: ");
 		int y = sc.nextInt();
 		
-		//Operations
 		System.out.println("Addition: " + (x + y));
 		System.out.println("Subtraction: " + (x - y));
 		System.out.println("Multiplication: " + (x * y));
@@ -24,7 +23,6 @@ public class Operations {
 		System.out.println("Greater than or equal to: " + (x >= y));
 		System.out.println("Less than or equal to: " + (x <= y));
 		
-		//Print if Odd or Even
 		System.out.println("Enter a number: ");
 		int z = sc.nextInt();
 		if(z % 2 == 0) {
@@ -34,7 +32,6 @@ public class Operations {
 			System.out.println(z + " is odd");
 		}
 		
-		//Number to String
 		System.out.println("Enter a number 1 to 10: ");
 		int a = sc.nextInt();
 		while(a < 0 && a > 10) {
@@ -54,28 +51,24 @@ public class Operations {
 			case(10): System.out.println("Ten");
 		}
 		
-		//All evens from 1-100
 		for(int i = 1; i <= 100; i++) {
 			if(i % 2 == 0) {
 				System.out.println(i);
 			}
 		}
 		
-		//1-5 x5
 		for(int i = 0; i < 5; i++) {
 			for(int j = 0; j < 5; j++) {
 				System.out.println(j);
 			}
 		}
 		
-		// 1 to 25 using while
 		int b = 1;
 		while(b <= 25) {
 			System.out.println(b);
 			b++;
 		}
 		
-		//Odds from 50 to 100 using do while
 		int c = 50;
 		do {
 			if(c % 2 == 1) {
@@ -85,14 +78,12 @@ public class Operations {
 		}
 		while(c <= 100);
 		
-		//All primes from 1 to 100
 		for(int i = 1; i <= 100; i++) {
 			if(isPrime(i)) {
 				System.out.println(i);
 			}
 		}
 		
-		//Odd numbers from 1 to 100 using continue
 		for(int i = 1; i <= 100; i++) {
 			if(i % 2 == 1) {
 				System.out.println(i);
@@ -102,7 +93,6 @@ public class Operations {
 			}
 		}
 		
-		//Even from 50 to 100 but break at 75
 		for(int i = 50; i <= 100; i++) {
 			if(i % 2 == 0 && i <= 75) {
 				System.out.println(i);

@@ -1,15 +1,9 @@
 package com.michael.michael_app;
-// Inheritance Example
+
 class Person {
 	int age;
 	String sex;
 	int ssn;
-	
-	// Constructor Overloading
-	public Person(int age, String sex) {
-		this.age = age;
-		this.sex = sex;
-	}
 	
 	public Person(int age, String sex, int ssn) {
 		this.age = age;
@@ -22,7 +16,6 @@ public class Student extends Person {
 	double gpa;
 	String classification;
 	public Student(int age, String sex, int ssn, double gpa, String classification) {
-		//super keyword
 		super(age, sex, ssn);
 		this.gpa = gpa;
 		this.classification = classification;
