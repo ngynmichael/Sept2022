@@ -1,0 +1,5 @@
+package com.michael.dao;
+
+public interface CarDAO {
+
+}

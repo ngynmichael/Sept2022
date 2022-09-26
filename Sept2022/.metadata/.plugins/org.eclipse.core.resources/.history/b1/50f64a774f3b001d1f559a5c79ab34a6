@@ -1,0 +1,14 @@
+package com.michael.dao;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+//model or POJO
+@Data
+@AllArgsConstructor
+public class Car {
+
+	private int carId;
+	private String carName;
+
+}

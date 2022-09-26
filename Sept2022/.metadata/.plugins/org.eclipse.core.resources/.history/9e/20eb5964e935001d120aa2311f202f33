@@ -1,8 +1,0 @@
-package com.michael.michael_app;
-
-public class Person {
-	
-	public Person(int age, String sex, ) {
-		
-	}
-}
