@@ -1,0 +1,25 @@
+package com.michael.serv;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class Test {
+	public static void main(String[] args) {
+		try(Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Sept2022", "root", "Wildpho159492");
+				PreparedStatement pst = 
+						con.prepareStatement("create table employees(empID varchar(10), firstName varchar(255), lastName varchar(255), primary key(empID))")){
+				if(tableExists(con, "employees") == false) {
+					pst.execute();
+				}
+		PreparedStatement q = con.prepareStatement("select * from employees where empID = ? and firstName = ? and lastName = ?");
+		q.setString(1, "12345");
+		q.setString(2, "Mike");
+		q.setString(3,  "Winn");
+		ResultSet rs = q.executeQuery();
+		
+	}
+		
+	}
+}

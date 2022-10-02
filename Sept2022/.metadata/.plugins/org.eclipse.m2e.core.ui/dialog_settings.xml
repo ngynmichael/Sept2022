@@ -50,6 +50,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\michaeln\Sept2022\michael-app\src\main\java\com\michael\assignment4\EmployeeManagementSystem.java"/>
 			<item value="C:\mavenproject"/>
 			<item value="C:\mavenproject\saran-app\src\main\java"/>
 		</list>
@@ -64,6 +65,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.michael"/>
 			<item value="com.michael.michael_app"/>
 			<item value="com.hcl"/>
 		</list>
@@ -72,6 +74,7 @@
 			<item value="com.saran"/>
 		</list>
 		<list key="artifactId">
+			<item value="WebProject"/>
 			<item value="michael-app"/>
 			<item value="JavaProject"/>
 		</list>

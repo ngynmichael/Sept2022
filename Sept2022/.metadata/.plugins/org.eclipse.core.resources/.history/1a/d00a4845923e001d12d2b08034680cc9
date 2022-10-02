@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="servlet1" method="post">  
+Employee ID:<input type="text" name="empID"/><br/>  
+First Name:<input type="text" name="firstName"/><br/>
+Last Name:<input type="text" name="lastName"/><br/>    
+<input type="submit" value="Login"/>  
+</form>  
+</body>
+</html>

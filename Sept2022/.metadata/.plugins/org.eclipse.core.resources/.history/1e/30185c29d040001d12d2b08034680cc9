@@ -1,0 +1,18 @@
+package com.saran;
+
+import javax.persistence.Id;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+//POJO
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Product {
+	@Id
+	private int prdId;
+	private String prdName;
+	private int prdPrice;
+
+}
