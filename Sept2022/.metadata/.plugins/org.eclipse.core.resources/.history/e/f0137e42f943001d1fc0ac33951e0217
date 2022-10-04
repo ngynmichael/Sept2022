@@ -1,0 +1,40 @@
+<%@ page import="com.michael.model.*, java.util.*, java.sql.SQLException" language="java"
+	contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Product Management</h1>
+	<h2 align="center">
+		<a href="/new">Add New Product</a> &nbsp;&nbsp;&nbsp; 
+		<a href="/list">List All Products</a>
+	</h2>
+	<div>
+	<%
+		out.println("<h1>Employees List</h1>");
+
+		List<Product> list = null;
+		try {
+			list = ProductDAO.selectAllProducts();
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+
+		out.print("<table border='1' width='100%'");
+		out.print("<tr><th>Id</th><th>First Name</th><th>Last Name</th><th>Edit</th><th>Delete</th></tr>");
+		for (Product e : list) {
+			out.print("<tr><td>" + e.getProductId() + "</td><td>" + e.getProductName() + "</td><td>" + e.getProductPrice()
+					+ "</td> <td><a href='/edit?id=" + e.getProductId()
+					+ "'>edit</a></td><td><a href='/delete?id=" + e.getProductId() + "'>delete</a></td></tr>");
+		}
+		out.print("</table>");
+
+		out.close();
+	%>
+	</div>
+</body>
+</html>

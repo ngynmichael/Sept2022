@@ -1,0 +1,39 @@
+package com.michael;
+
+import java.util.HashSet;
+import java.util.Set;
+ 
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+@Entity
+@Table(name="Employee")
+public class Employee {
+	
+	@Id
+	@Column(name="EMPLOYEE_ID")
+	@GeneratedValue
+	private Long employeeId;
+	
+	@Column(name="USERNAME")
+	private String name;
+	
+	@Column(name="Password")
+	private String password;
+	
+	
+}

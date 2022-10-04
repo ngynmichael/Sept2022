@@ -8,8 +8,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.*;
 
-import com.michael.serv.*;
-
 public class EmployeeDAO {
 
 	private static String jdbcURL = "jdbc:mysql://localhost:3306/Sept2022";

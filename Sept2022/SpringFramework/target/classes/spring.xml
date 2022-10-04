@@ -1,0 +1,17 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="prd" class="com.saran.model.Product">
+		<property name="prdName" value="KeyBoard" /> <!-- property xml tag refers to setter method -->
+		<property name="prdPrice" value="30" />
+		
+	</bean>
+	
+	<bean id="emp" class="com.saran.model.Employee">
+		<property name="empId" value="111" /> 
+		
+	</bean>
+
+</beans>

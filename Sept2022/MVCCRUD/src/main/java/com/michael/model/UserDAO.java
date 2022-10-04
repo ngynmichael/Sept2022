@@ -1,0 +1,77 @@
+package com.michael.model;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+
+public class UserDAO {
+	private static String jdbcURL = "jdbc:mysql://localhost:3306/Sept2022";
+	private static String jdbcUsername = "root";
+	private static String jdbcPassword = "Wildpho159492";
+	private static Connection jdbcConnection;
+	private static final String INSERT_EMPLOYEES_SQL = "INSERT INTO users" + "  (username, password) VALUES "
+			+ " (?, ?);";
+	private static final String SELECT_EMPLOYEE_BY_USER = "select username, password from users where username =?";
+	
+	public UserDAO() {
+		
+	}
+	
+	protected static void connect() throws SQLException {
+		if (jdbcConnection == null || jdbcConnection.isClosed()) {
+			try {
+				Class.forName("com.mysql.jdbc.Driver");
+			} catch (ClassNotFoundException e) {
+				throw new SQLException(e);
+			}
+			jdbcConnection = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
+		}
+	}
+
+	protected static void disconnect() throws SQLException {
+		if (jdbcConnection == null || jdbcConnection.isClosed()) {
+			jdbcConnection.close();
+		}
+	}
+	
+	public int insertUser(User user) throws SQLException {
+		int status = 0;
+		connect();
+		PreparedStatement preparedStatement = jdbcConnection.prepareStatement(INSERT_EMPLOYEES_SQL);
+		preparedStatement.setString(1, user.getUsername());
+		preparedStatement.setString(2, user.getPassword());
+		System.out.println(preparedStatement);
+		status = preparedStatement.executeUpdate();
+		System.out.println(status);
+		return status;
+	}
+	
+	public boolean exists(String username) throws SQLException{
+		connect();
+		PreparedStatement preparedStatement = jdbcConnection.prepareStatement(SELECT_EMPLOYEE_BY_USER);
+		preparedStatement.setString(1, username);
+		ResultSet rs = preparedStatement.executeQuery();
+		if(rs.next()) {
+			return true;
+		}
+		return false;
+	}
+	
+	public boolean validate(String username, String password) throws SQLException{
+		User user = new User();
+		connect();
+		PreparedStatement preparedStatement = jdbcConnection.prepareStatement(SELECT_EMPLOYEE_BY_USER);
+		preparedStatement.setString(1, username);
+		ResultSet rs = preparedStatement.executeQuery();
+		while (rs.next()) {
+			String u = rs.getString("username");
+			String p = rs.getString("password");
+			user = new User(u, p);
+		}
+		return username.equals(user.getUsername()) && password.equals(user.getPassword());
+	}
+}
+

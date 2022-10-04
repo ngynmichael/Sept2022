@@ -1,0 +1,5 @@
+package com.michael.model;
+
+public class UserDAO {
+
+}

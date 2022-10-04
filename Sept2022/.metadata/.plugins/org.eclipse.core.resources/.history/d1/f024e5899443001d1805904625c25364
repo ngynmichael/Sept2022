@@ -1,0 +1,48 @@
+package com.michael.controller;
+
+import java.io.IOException;  
+import java.io.PrintWriter;
+import java.sql.SQLException;
+
+import javax.servlet.RequestDispatcher;  
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;  
+import javax.servlet.http.HttpServletRequest;  
+import javax.servlet.http.HttpServletResponse;
+
+import com.michael.model.*;
+
+@WebServlet("/Register")
+public class Register {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)  
+            throws ServletException, IOException, SQLException {  
+        response.setContentType("text/html");  
+        PrintWriter out=response.getWriter();  
+          
+        String name=request.getParameter("username");  
+        String password=request.getParameter("password");  
+          
+        UserDAO bean=new UserDAO();  
+          
+        boolean status = bean.exists(name);
+          
+        if(status){  
+            RequestDispatcher rd=request.getRequestDispatcher("Register.jsp");  
+            out.print("Username Already Exists!!");
+            rd.forward(request, response);  
+        }  
+        else{
+        	bean.insertUser(new User(name, password));
+            RequestDispatcher rd=request.getRequestDispatcher("index.jsp");
+            out.print("New User Added Successfully!");
+            rd.forward(request, response);  
+        }  
+      
+    }  
+	
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp)  
+            throws ServletException, IOException, SQLException {  
+        doPost(req, resp);  
+    } 
+}

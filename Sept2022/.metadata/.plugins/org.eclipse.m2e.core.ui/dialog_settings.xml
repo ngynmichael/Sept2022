@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
 		</list>
@@ -19,14 +21,17 @@
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
-	<section name="org.eclipse.m2e.core.pom.dependencies">
-	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\michaeln\Sept2022\michael-app"/>
-			<item value="C:\mavenproject\saran-app"/>
+			<item value="C:\Users\michaeln\Sept2022\MVCCRUD-main"/>
+			<item value="C:\Users\michaeln\Sept2022\Hibernate-main"/>
+			<item value="C:\Users\michaeln\Sept2022\Many2ManyMapping"/>
+			<item value="C:\Users\michaeln\Sept2022\One2OneMapping-main"/>
+			<item value="C:\Users\michaeln\Sept2022\HibernateEmbed-main"/>
+			<item value="C:\Users\michaeln\Sept2022\EmployeeCRUD"/>
+			<item value="C:\Users\michaeln\Sept2022\MVCCRUD"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -50,9 +55,6 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="C:\Users\michaeln\Sept2022\michael-app\src\main\java\com\michael\assignment4\EmployeeManagementSystem.java"/>
-			<item value="C:\mavenproject"/>
-			<item value="C:\mavenproject\saran-app\src\main\java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -65,18 +67,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.michael"/>
-			<item value="com.michael.michael_app"/>
-			<item value="com.hcl"/>
+			<item value="com.michael.MVCCRUD"/>
 		</list>
 		<list key="groupId">
 			<item value="com.michael"/>
-			<item value="com.saran"/>
 		</list>
 		<list key="artifactId">
-			<item value="WebProject"/>
-			<item value="michael-app"/>
-			<item value="JavaProject"/>
+			<item value="MVCCRUD"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

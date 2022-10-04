@@ -1,0 +1,76 @@
+package com.michael.model;
+
+import java.sql.Connection;
+import java.sql.DatabaseMetaData;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.*;
+
+import com.michael.model.*;
+import com.michael.serv.Employee;
+
+public class ProductDAO {
+	private static String jdbcURL = "jdbc:mysql://localhost:3306/Sept2022";
+	private static String jdbcUsername = "root";
+	private static String jdbcPassword = "Wildpho159492";
+	private static Connection jdbcConnection;
+	private static final String INSERT_EMPLOYEES_SQL = "INSERT INTO product" + "  (id, name, price) VALUES "
+			+ " (?, ?, ?);";
+	private static final String SELECT_EMPLOYEE_BY_ID = "select id, name, price from product where id =?";
+	private static final String SELECT_ALL_EMPLOYEES = "select * from product";
+	private static final String DELETE_EMPLOYEES_SQL = "delete from product where id = ?;";
+	private static final String UPDATE_EMPLOYEES_SQL = "update product set id = ?, name= ?, price = ? where id = ?;";
+	
+	public ProductDAO() {
+		
+	}
+	
+	protected static void connect() throws SQLException {
+		if (jdbcConnection == null || jdbcConnection.isClosed()) {
+			try {
+				Class.forName("com.mysql.jdbc.Driver");
+			} catch (ClassNotFoundException e) {
+				throw new SQLException(e);
+			}
+			jdbcConnection = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
+		}
+	}
+
+	protected static void disconnect() throws SQLException {
+		if (jdbcConnection == null || jdbcConnection.isClosed()) {
+			jdbcConnection.close();
+		}
+	}
+	
+	public static int insertProduct(Product product) throws SQLException {
+		int status = 0;
+		connect();
+		PreparedStatement preparedStatement = jdbcConnection.prepareStatement(INSERT_EMPLOYEES_SQL);
+		preparedStatement.setInt(1, product.getProductId());
+		preparedStatement.setString(2, product.getProductName());
+		preparedStatement.setFloat(3, product.getProductPrice());
+		System.out.println(preparedStatement);
+		status = preparedStatement.executeUpdate();
+		System.out.println(status);
+		return status;
+	}
+	
+	public static Product selectProduct(int id) throws SQLException{
+		Product product = new Product();
+		connect();
+		PreparedStatement preparedStatement = jdbcConnection.prepareStatement(SELECT_EMPLOYEE_BY_ID);
+		preparedStatement.setInt(1, id);
+		System.out.println(preparedStatement);
+		ResultSet rs = preparedStatement.executeQuery();
+
+		while (rs.next()) {
+			int id = rs.getInt("id");
+			String name = rs.getString("name");
+			float price = rs.getFloat("price");
+			product = new Product(id, name, price);
+		}
+		return product;
+	}
+}

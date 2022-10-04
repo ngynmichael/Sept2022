@@ -1,0 +1,42 @@
+<%@ page import="com.michael.model.*, java.util.*, java.sql.SQLException" language="java"
+	contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Product Management</h1>
+	<form action="UpdateProduct" method="post">
+		Product ID: <input type="numeric" name="id"> <br>
+		Product Name: <input type="text" name="name"> <br>
+		Product Price: <input type="numeric" name="price"> <br>
+		<input type="submit" value="Update Product">
+	</form>
+	<div>
+	<%
+		out.println("<h1>Product List</h1>");
+
+		List<Product> list = null;
+		try {
+			list = ProductDAO.selectAllProducts();
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+
+		out.print("<table border='1' width='100%'");
+		out.print("<tr><th>Id</th><th>First Name</th><th>Last Name</th><th>Edit</th><th>Delete</th></tr>");
+		for (Product e : list) {
+			out.print("<tr><td>" + e.getProductId() + "</td><td>" + e.getProductName() + "</td><td>" + e.getProductPrice()
+					+ "</td> <td><a href='updatemain.jsp?id=" + e.getProductId()
+					+ "'>edit</a></td><td><a href='/DeleteProduct?id=" + e.getProductId() + "'>delete</a></td></tr>");
+		}
+		out.print("</table>");
+
+		out.close();
+	%>
+	</div>
+</body>
+</html>
